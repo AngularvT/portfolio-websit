@@ -1,0 +1,89 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  padding-top: 32px;
+  font-family: var(--font-geist-sans);
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.hero h1 {
+  max-width: 640px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -2px;
+  text-wrap: balance;
+}
+
+.intro {
+  max-width: 560px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.tagline {
+  max-width: 560px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.button:hover {
+  opacity: 0.85;
+}
+
+.primary {
+  background: var(--foreground);
+  color: var(--background);
+}
+
+.secondary {
+  border-color: rgba(128, 128, 128, 0.4);
+}
+
+.featured {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.featured h2 {
+  font-size: 24px;
+  letter-spacing: -0.5px;
+}
+
+.projectList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.projectLink {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.projectLink:hover {
+  text-decoration: underline;
+}
